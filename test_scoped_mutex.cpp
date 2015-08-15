@@ -5,8 +5,14 @@
  * Filename :        test_scoped_mutex.cpp
  * Description :     
  * *********************************************************************/
+
+//#include <pthread.h>
+#include <boost/pthread.hpp>
+
 #include "scoped_mutex.hpp"
 
+
 int main(int argc, char** argv) {
+  
   return 0;
 }
